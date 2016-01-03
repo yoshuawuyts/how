@@ -10,7 +10,7 @@ $ git clone https://github.com/yoshuawuyts/how
 
 ## Usage
 ```txt
-how - how to do anything
+how(1) - learn how to do anything
 
 Usage: how [options] <keyword>
 
