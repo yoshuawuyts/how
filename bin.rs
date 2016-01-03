@@ -5,5 +5,5 @@ use how::how;
 
 // how
 fn main () {
-  how();
+  how("./test/hello.md");
 }
