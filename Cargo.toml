@@ -10,7 +10,7 @@ path = "main.rs"
 
 [[bin]]
 name = "how"
-path = "bin.rs"
+path = "bin/cli.rs"
 
 [dependencies]
 getopts="0.2.14"
