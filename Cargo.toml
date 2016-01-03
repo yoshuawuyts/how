@@ -1,0 +1,16 @@
+[package]
+name = "how"
+version = "1.0.0"
+description = "How(1) - how to do anything"
+keywords = ["how","anything","cli","help","unix","linux","platform","tutorial"]
+
+[lib]
+name = "how"
+path = "main.rs"
+
+[[bin]]
+name = "how"
+path = "bin.rs"
+
+[dependencies]
+getopts="0.2.14"
