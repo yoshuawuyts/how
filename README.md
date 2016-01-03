@@ -1,20 +1,31 @@
 # how [![stability][0]][1]
 [![build status][4]][5] [![test coverage][6]][7]
 
-How(1) - how to do anything.
+`how(1)` - learn how to do anything.
 
 ## Installation
 ```sh
-$ cargo install how
+$ git clone https://github.com/yoshuawuyts/how
 ```
 
 ## Usage
-```rs
-extern crate how;
-```
+```txt
+how - how to do anything
 
-## API
-### how
+Usage: how [options] <keyword>
+
+Options:
+  -h, --help        Output usage information
+  -v, --version     Output version number
+
+Examples:
+  $ how start          # learn how to get started
+  $ how unix           # get an explanation of how unix works
+  $ how programming    # learn how to program
+
+Docs: https://github.com/yoshuawuyts/how
+Bugs: https://github.com/yoshuawuyts/how/issues
+```
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)

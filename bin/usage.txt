@@ -1,17 +1,15 @@
-initialize - generate a fresh package
+how - learn how to do anything
 
-Usage: initialize [options]
+Usage: how [options] <keyword>
 
 Options:
   -h, --help        Output usage information
   -v, --version     Output version number
-  -u, --user        Override user with organization
-  -d, --directory   Specify output directory
 
 Examples:
-  $ initialize            # generate package in `./`
-  $ initialize -d ./dir   # generate package in `./dir`
-  $ initialize -u npm     # generate package for `npm`
+  $ how start          # learn how to get started
+  $ how unix           # get an explanation of how unix works
+  $ how programming    # learn how to program
 
-Docs: https://github.com/yoshuawuyts/initialize
-Bugs: https://github.com/yoshuawuyts/initialize/issues
+Docs: https://github.com/yoshuawuyts/how
+Bugs: https://github.com/yoshuawuyts/how/issues
