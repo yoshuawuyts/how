@@ -1,7 +1,13 @@
 # how [![stability][0]][1]
 [![build status][4]][5] [![test coverage][6]][7]
 
-`how(1)` - learn how to do anything.
+`how(1)` - learn how to do anything. [Unix is not discoverable][8], so we need
+to fix that.
+```txt
+Last login: Wed Nov 4 19:05:55 on ttys000
+Type 'how start' to get started.
+❯
+```
 
 ## Installation
 ```sh
@@ -36,3 +42,4 @@ Bugs: https://github.com/yoshuawuyts/how/issues
 [5]: https://travis-ci.org/yoshuawuyts/how
 [6]: https://img.shields.io/codecov/c/github/yoshuawuyts/how/master.svg?style=flat-square
 [7]: https://codecov.io/github/yoshuawuyts/how
+[8]: https://medium.com/@yoshuawuyts/unix-is-not-discoverable-8b64c02a33ef
