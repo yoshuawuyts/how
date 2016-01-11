@@ -14,3 +14,4 @@ path = "bin/cli.rs"
 
 [dependencies]
 getopts="0.2.14"
+pulldown-cmark = "0.0.5"

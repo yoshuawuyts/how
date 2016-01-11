@@ -9,6 +9,10 @@ pub fn how (location: &str) {
 
   let mut file = String::new();
   rs.read_to_string(&mut file).unwrap();
+  parse_markdown(file)
+}
 
-  println!("{}", file);
+// parse markdown string
+fn parse_markdown (md: String) {
+  println!("{}", md);
 }
